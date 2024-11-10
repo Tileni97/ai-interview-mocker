@@ -11,7 +11,7 @@ This is a full-stack AI-powered mock interview application, created using **Next
 - [Usage](#usage)
 - [Folder Structure](#folder-structure)
 - [Future Enhancements](#future-enhancements)
-- [License](#license)
+
 
 ## Features
 
