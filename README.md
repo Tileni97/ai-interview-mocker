@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# AI Mock Interview App
 
-## Getting Started
+This is a full-stack AI-powered mock interview application, created using **Next.js**, **React**, **Drizzle ORM**, **OpenAI**, and **Clerk**. The application provides an interactive mock interview experience that simulates real interview scenarios, helping users practice and improve their interview skills.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Folder Structure](#folder-structure)
+- [Future Enhancements](#future-enhancements)
+- [License](#license)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Role-Based Interviews**: Choose from various roles and technologies (e.g., Junior Dev, React) to get tailored interview questions.
+- **Real-Time Feedback**: Get instant feedback powered by AI to improve your answers.
+- **Webcam and Microphone Support**: Practice real interview scenarios with webcam and microphone access.
+- **User Authentication**: Secure authentication using Clerk, ensuring a personalized experience.
+- **AI-Powered Responses**: Utilizes OpenAI to generate questions and feedback dynamically, making each interview unique.
+- **Progress Tracking**: Track your progress, view past interviews, and identify areas for improvement.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Screenshots
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Technologies Used
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **Next.js** - For server-side rendering and routing.
+- **React** - UI components and interactive features.
+- **Drizzle ORM** - Database ORM for seamless data management.
+- **OpenAI** - Generates interview questions and feedback.
+- **Clerk** - Provides authentication for users.
 
-## Deploy on Vercel
+## Installation
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Clone the repository:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   ```bash
+   git clone https://github.com/yourusername/ai-mock-interview-app.git
+   cd ai-mock-interview-app
+Install dependencies:![Uploading Screenshot 2024-11-10 235458.png…]()
